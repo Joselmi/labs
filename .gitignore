@@ -1,0 +1,48 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Ignore generated *.docker-compose.yml
+*-cluster.docker-compose.yml
+*.docker-compose.yml
+
+# cassandra ignore
+cassandra/cluster_certs
+cassandra/mount/cassandra-node-*
+cassandra/mount/jmxremote.password
+cassandra/mount/cassandra.yaml
+
+# neo4j ignore
+neo4j/mount/data
+neo4j/mount/neo4j
+neo4j/mount/plugins
+
+# hadoop data
+hadoop/mount/datanode-*
+hadoop/mount/namenode
+hadoop/mount/nodemanager-*
+hadoop/mount/resourcemanager
+hadoop/envs
+hadoop/data.csv
+
+# spark data
+spark/vscode_server
+spark/mount/data
+spark/mount/spark_job_env.tar.gz
+
+# mongodb data
+mongodb/mount/mongo-keyfile
+mongodb/mount/mongodb-node-*
+
+# redis data
+redis/mount/redis-node-*
+
+# opensearch data
+opensearch/mount/opensearch-node-*
