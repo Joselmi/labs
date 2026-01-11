@@ -34,6 +34,9 @@ hadoop/data.csv
 
 # spark data
 spark/vscode_server
+spark/mount/spark-master
+spark/mount/spark-warehouse
+spark/mount/spark-worker-*
 spark/mount/data
 spark/mount/spark_job_env.tar.gz
 
